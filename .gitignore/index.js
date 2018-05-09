@@ -44,7 +44,7 @@ bot.on('message', function (message) {
 	
 	mot === 'NANI'
 	
-	if (position<>'-1' & message.member.id === '181855904709345280')
+	if (position!=-1 & message.member.id === '181855904709345280')
 	{
 		message.channel.send
 		({
