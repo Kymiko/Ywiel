@@ -205,6 +205,19 @@ bot.on('message', function (message) {
 		})
 	}
 	
+		chaine = message.content
+	mot = 'KONO DIO DA'
+	position = chaine.search(mot)
+	
+	if (position!=-1 & message.member.id === '181855904709345280')
+	{
+		message.channel.send
+		({
+		file : './images/Dio.png'
+		})
+	}
+	
+	
 	
 })
 
