@@ -43,6 +43,9 @@ bot.on('message', function (message) {
 		canal.send(mid + ' ' + message.member.displayName + ' est volontaire pour la gvg de la semaine prochaine')
 	}
 	
+	
+	// PARTIE IMAGES CANCER SOSO 181855904709345280 + HAWK 174915471718612992
+	
 	chaine = message.content
 	mot = 'NANI'
 	position = chaine.search(mot)
@@ -64,6 +67,18 @@ bot.on('message', function (message) {
 		message.channel.send
 		({
 		file : './images/OMEGALUL.png'
+		})
+	}
+	
+	chaine = message.content
+	mot = 'LUUUL'
+	position = chaine.search(mot)
+	
+	if (position!=-1 & message.member.id === '181855904709345280')
+	{
+		message.channel.send
+		({
+		file : './images/LUUUL.png'
 		})
 	}
 	
