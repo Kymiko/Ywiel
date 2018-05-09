@@ -128,7 +128,7 @@ bot.on('message', function (message) {
 	{
 		message.channel.send
 		({
-		file : './images/Bob Ross.png'
+		file : './images/BobRoss.png'
 		})
 	}
 	
