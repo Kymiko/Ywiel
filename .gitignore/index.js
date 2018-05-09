@@ -4,7 +4,7 @@ const Emoji = require('./commandes/emoji')
 const Ping = require('./commandes/ping')
 var chaine
 var position
-var mot: string;
+var mot
 
 
 bot.on('ready', function () {
@@ -43,9 +43,9 @@ bot.on('message', function (message) {
 		canal.send(mid + ' ' + message.member.displayName + ' est volontaire pour la gvg de la semaine prochaine')
 	}
 	
-	chaine === message.content
-	mot === 'NANI'
-	position ===  chaine.search(mot)
+	chaine = message.content
+	mot = 'NANI'
+	position = chaine.search(mot)
 	
 	if (position!=-1 & message.member.id === '181855904709345280')
 	{
