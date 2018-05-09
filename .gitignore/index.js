@@ -2,8 +2,8 @@ const Discord = require('discord.js')
 const bot = new Discord.Client()
 const Emoji = require('./commandes/emoji')
 const Ping = require('./commandes/ping')
-var position = chaine.indexOf(mot); 
-var mot = chaine
+var position = string.indexOf(mot); 
+var mot = string
 
 
 bot.on('ready', function () {
