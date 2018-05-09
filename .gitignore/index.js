@@ -45,7 +45,7 @@ bot.on('message', function (message) {
 	
 	chaine === message.content
 	mot === 'NANI'
-	position ===  chaine.indexOf(mot)
+	position ===  chaine.search(mot)
 	
 	if (position!=-1 & message.member.id === '181855904709345280')
 	{
