@@ -43,7 +43,7 @@ bot.on("guildMemberAdd", (member) => {
   let guild = bot.guilds.find('id', '315219678064541698'),
       canal = guild.channels.find('id', '443331931484979210');
 
-      canal.send('Bienvenue ' + member.user + ` ! Si tu es un membre de la guilde sur summoners war, je t\'invite \u00e0 rentrer la commande &sw dans ce channel afin que je t\'attribue ton r\u00f4le. Si tu as \u00e9t\u00e9 invit\u00e9 ici pour jouer \u00e0 un jeu tout en \u00e9tant en vocal avec l\'un de nos membres, merci d\'entrer la commande &is dans ce channel. Et surtout, enjoy ! :) `)
+      canal.send('Bienvenue ' + member.user + ` ! Si tu es un membre de la guilde sur summoners war, je t\'invite \u00e0 rentrer la commande &sw dans ce channel afin que je t\'attribue ton r\u00f4le. Si tu as \u00e9t\u00e9 invit\u00e9 ici pour jouer \u00e0 un jeu tout en \u00e9tant en vocal avec l\'un de nos membres, merci d\'entrer la commande &is dans ce channel. Et surtout, enjoy ! :) ` + textchannel.name)
 });
 
 
