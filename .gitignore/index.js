@@ -217,6 +217,53 @@ bot.on('message', function (message) {
 		})
 	}
 	
+	chaine = message.content
+	mot = 'JOHN'
+	position = chaine.search(mot)
+	
+	if (position!=-1 & message.member.id === '174915471718612992')
+	{
+		message.channel.send
+		({
+		file : './images/JohnCena.png'
+		})
+	}
+	
+	chaine = message.content
+	mot = 'CENA'
+	position = chaine.search(mot)
+	
+	if (position!=-1 & message.member.id === '174915471718612992')
+	{
+		message.channel.send
+		({
+		file : './images/JohnCena.png'
+		})
+	}
+	
+	chaine = message.content
+	mot = 'John'
+	position = chaine.search(mot)
+	
+	if (position!=-1 & message.member.id === '174915471718612992')
+	{
+		message.channel.send
+		({
+		file : './images/JohnCena.png'
+		})
+	}
+	
+	chaine = message.content
+	mot = 'Cena'
+	position = chaine.search(mot)
+	
+	if (position!=-1 & message.member.id === '174915471718612992')
+	{
+		message.channel.send
+		({
+		file : './images/JohnCena.png'
+		})
+	}
 	
 	
 })
