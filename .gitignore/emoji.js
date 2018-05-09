@@ -13,7 +13,7 @@ module.exports = class Emoji
 		args.shift()
 		message.channel.send
 		({
-		file : './images/' + args.join('') + '.png'
+		file : args.join('') + '.png'
 		})
 		
 	}
