@@ -156,6 +156,45 @@ bot.on('message', function (message) {
 		})
 	}
 	
+		chaine = message.content
+	mot = 'Salted'
+	position = chaine.search(mot)
+	
+	if (position!=-1 & message.member.id === '181855904709345280')
+	{
+		message.channel.send
+		({
+		file : './images/Salt.png'
+		})
+	}
+	
+		chaine = message.content
+	mot = 'salted'
+	position = chaine.search(mot)
+	
+	if (position!=-1 & message.member.id === '181855904709345280')
+	{
+		message.channel.send
+		({
+		file : './images/Salt.png'
+		})
+	}
+	
+		chaine = message.content
+	mot = 'SALTED'
+	position = chaine.search(mot)
+	
+	if (position!=-1 & message.member.id === '181855904709345280')
+	{
+		message.channel.send
+		({
+		file : './images/Salt.png'
+		})
+	}
+	
+	
+	
+	
 })
 
 bot.on("guildMemberAdd", (member) => {
