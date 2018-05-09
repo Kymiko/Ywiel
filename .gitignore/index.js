@@ -43,6 +43,17 @@ bot.on('message', function (message) {
 		canal.send(mid + ' ' + message.member.displayName + ' est volontaire pour la gvg de la semaine prochaine')
 	}
 	
+	// Dialogues
+	
+	chaine = message.content
+	mot = 'Je t\'aime Ywiel'
+	position = chaine.search(mot)
+	
+	if (position!=-1 & message.member.id === '255031973133680640')
+	{
+		message.channel.send('Moi aussi Créatrice ♥')
+	}
+	
 	// Dial Ywi / Eli
 	
 	chaine = message.content
