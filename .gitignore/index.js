@@ -2,6 +2,9 @@ const Discord = require('discord.js')
 const bot = new Discord.Client()
 const Emoji = require('./commandes/emoji')
 const Ping = require('./commandes/ping')
+var position = chaine.indexOf(mot); 
+var mot = chaine
+
 
 bot.on('ready', function () {
 	bot.user.setActivity('Summoners War Guildmanage').catch(console.error)
@@ -39,7 +42,9 @@ bot.on('message', function (message) {
 		canal.send(mid + ' ' + message.member.displayName + ' est volontaire pour la gvg de la semaine prochaine')
 	}
 	
-	if (message.content === 'NANI' & message.member.id === '181855904709345280')
+	mot === 'NANI'
+	
+	if (position<>-1 & message.member.id === '181855904709345280')
 	{
 		message.channel.send
 		({
