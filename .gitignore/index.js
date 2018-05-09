@@ -1,7 +1,7 @@
 const Discord = require('discord.js')
 const bot = new Discord.Client()
-const Emoji = require('./commandes/emoji')
-const Ping = require('./commandes/ping')
+const Emoji = require('emoji')
+const Ping = require('ping')
 
 bot.on('ready', function () {
 	bot.user.setActivity('Summoners War Guildmanage').catch(console.error)
