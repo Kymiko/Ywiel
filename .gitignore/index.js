@@ -54,6 +54,19 @@ bot.on('message', function (message) {
 		file : './images/NANI.png'
 		})
 	}
+	
+	chaine = message.content
+	mot = 'OMEGALUL'
+	position = chaine.search(mot)
+	
+	if (position!=-1 & message.member.id === '181855904709345280')
+	{
+		message.channel.send
+		({
+		file : './images/OMEGALUL.png'
+		})
+	}
+	
 })
 
 bot.on("guildMemberAdd", (member) => {
