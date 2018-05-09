@@ -82,17 +82,45 @@ bot.on('message', function (message) {
 		})
 	}
 	
+	// 3 Seriously
+	
 	chaine = message.content
-	mot = 'LUUUL'
+	mot = 'SERIOUSLY'
 	position = chaine.search(mot)
 	
 	if (position!=-1 & message.member.id === '181855904709345280')
 	{
 		message.channel.send
 		({
-		file : './images/LUUUL.png'
+		file : './images/SERIOUSLY.png'
 		})
 	}
+	
+		chaine = message.content
+	mot = 'Seriously'
+	position = chaine.search(mot)
+	
+	if (position!=-1 & message.member.id === '181855904709345280')
+	{
+		message.channel.send
+		({
+		file : './images/Seriously.png'
+		})
+	}
+	
+		chaine = message.content
+	mot = 'seriously'
+	position = chaine.search(mot)
+	
+	if (position!=-1 & message.member.id === '181855904709345280')
+	{
+		message.channel.send
+		({
+		file : './images/seriously.png'
+		})
+	}
+	
+	
 	
 })
 
