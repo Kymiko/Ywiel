@@ -34,9 +34,9 @@ bot.on('message', function (message) {
 	{
 		let guild = bot.guilds.find('id', '280821033966239754'),
 		canal = guild.channels.find('id', '443804252981297152'),
-		mid = guild.member('id', '256160275156303872');
+		mid = 256160275156303872;
 
-		canal.send(mid.user + ' ' + message.member.displayName + ' est volontaire pour la gvg de la semaine prochaine')
+		canal.send(mid + ' ' + message.member.displayName + ' est volontaire pour la gvg de la semaine prochaine')
 	}
 })
 
