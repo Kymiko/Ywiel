@@ -43,8 +43,30 @@ bot.on('message', function (message) {
 		canal.send(mid + ' ' + message.member.displayName + ' est volontaire pour la gvg de la semaine prochaine')
 	}
 	
+	// Dial Ywi / Eli
+	
+	chaine = message.content
+	mot = 'Ywiel'
+	position = chaine.search(mot)
+	
+	if (position!=-1 & message.member.id === '255031973133680640')
+	{
+		message.channel.send('Vous m\'avez appelée, Créatrice ?')
+	}
+	
+	chaine = message.content
+	mot = 'Ywiël'
+	position = chaine.search(mot)
+	
+	if (position!=-1 & message.member.id === '255031973133680640')
+	{
+		message.channel.send('Vous m\'avez appelée, Créatrice ?')
+	}
 	
 	// PARTIE IMAGES CANCER SOSO 181855904709345280 + HAWK 174915471718612992
+	
+	
+	// SOSO
 	
 	chaine = message.content
 	mot = 'NANI'
@@ -216,6 +238,8 @@ bot.on('message', function (message) {
 		file : './images/Dio.png'
 		})
 	}
+	
+	// HAWK
 	
 	chaine = message.content
 	mot = 'JOHN'
