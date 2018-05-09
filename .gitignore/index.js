@@ -4,7 +4,9 @@ const Emoji = require('./commandes/emoji')
 const Ping = require('./commandes/ping')
 var chaine
 var position
+var autrepos
 var mot
+var pasla
 
 
 bot.on('ready', function () {
@@ -45,22 +47,17 @@ bot.on('message', function (message) {
 	
 	// Dialogues
 	
-	chaine = message.content
-	mot = 'Je t\'aime Ywiel'
-	position = chaine.search(mot)
 	
-	if (position!=-1 & message.member.id === '255031973133680640')
-	{
-		message.channel.send('Moi aussi Créatrice ♥')
-	}
 	
 	// Dial Ywi / Eli
 	
 	chaine = message.content
 	mot = 'Ywiel'
+	pasla = 'Je t\'aime'
 	position = chaine.search(mot)
+	autrepos = chaine.search(pasla)
 	
-	if (position!=-1 & message.member.id === '255031973133680640')
+	if (position!=-1 & message.member.id === '255031973133680640' & autrepos===-1)
 	{
 		message.channel.send('Vous m\'avez appelée, Créatrice ?')
 	}
@@ -72,6 +69,15 @@ bot.on('message', function (message) {
 	if (position!=-1 & message.member.id === '255031973133680640')
 	{
 		message.channel.send('Vous m\'avez appelée, Créatrice ?')
+	}
+	
+	chaine = message.content
+	mot = 'Je t\'aime Ywiel'
+	position = chaine.search(mot)
+	
+	if (position!=-1 & message.member.id === '255031973133680640')
+	{
+		message.channel.send('Moi aussi Créatrice ♥')
 	}
 	
 	// PARTIE IMAGES CANCER SOSO 181855904709345280 + HAWK 174915471718612992
