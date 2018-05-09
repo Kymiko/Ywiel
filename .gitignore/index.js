@@ -67,6 +67,18 @@ bot.on('message', function (message) {
 		})
 	}
 	
+	chaine = message.content
+	mot = 'LUUUL'
+	position = chaine.search(mot)
+	
+	if (position!=-1 & message.member.id === '181855904709345280')
+	{
+		message.channel.send
+		({
+		file : './images/LUUUL.png'
+		})
+	}
+	
 })
 
 bot.on("guildMemberAdd", (member) => {
