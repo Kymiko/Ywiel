@@ -39,7 +39,7 @@ bot.on('message', function (message) {
 		canal.send(mid + ' ' + message.member.displayName + ' est volontaire pour la gvg de la semaine prochaine')
 	}
 	
-	if (message.content === 'NANI' & member.id === '181855904709345280')
+	if (message.content === 'NANI' & message.member.id === '181855904709345280')
 	{
 		message.channel.send
 		({
