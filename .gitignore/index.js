@@ -4,7 +4,7 @@ const Emoji = require('./commandes/emoji')
 const Ping = require('./commandes/ping')
 var chaine
 var position
-var mot
+var mot: string;
 
 
 bot.on('ready', function () {
