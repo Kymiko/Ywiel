@@ -80,8 +80,23 @@ bot.on('message', function (message) {
 		message.channel.send('Moi aussi Créatrice ♥')
 	}
 	
+	
+	
 	// PARTIE IMAGES CANCER SOSO 181855904709345280 + HAWK 174915471718612992
 	
+	// MOI
+	
+	chaine = message.content
+	mot = ':°'
+	position = chaine.search(mot)
+	
+	if (position!=-1 & message.member.id === '255031973133680640')
+	{
+		message.channel.send
+		({
+		file : './images/siffle.png'
+		})
+	}
 	
 	// SOSO
 	
