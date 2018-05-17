@@ -26,7 +26,6 @@ bot.on('message', function (message)
 	{
 		return Emoji.action(message)
 	}
-})
 	
 
 	
